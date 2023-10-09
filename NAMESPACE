@@ -2,3 +2,7 @@
 
 export(get_api_data)
 export(get_query_data)
+export(ui)
+import(dplyr)
+import(ggplot2)
+import(shiny)
