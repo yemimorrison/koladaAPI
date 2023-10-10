@@ -2,13 +2,11 @@
 #' Gets single data from the API
 #'
 #' @param endpoint The API endpoint URL
+#' @param entity   A required API variable from kolada
 #' @param params   A list of query parameters
 #' @return         Parsed API response
-#' 
-#' @examples
-#' api_data <- getapidata("http://api.kolada.se/v2", entity = "municipality", params = list())
-#' api_data <- getapidata("http://api.kolada.se/v2", "kpi", list())
-#' 
+#' @import jsonlite
+#' @import curl
 #' 
 #' @export
 

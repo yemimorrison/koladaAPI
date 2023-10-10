@@ -1,12 +1,3 @@
-# Install and load the 'testthat' package if not already installed
-#if (!requireNamespace("testthat", quietly = TRUE)) {
-  #install.packages("testthat")}
-#library(testthat)
-library(jsonlite)
-# Load your getapidata function
-#source("~/R/koladaAPI/R/getapidata.R")
-
-
 context_start_file("getapidata")
 
 # Test suite for getapidata function

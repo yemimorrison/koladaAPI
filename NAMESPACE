@@ -2,7 +2,6 @@
 
 export(getapidata)
 export(getquerydata)
-export(ui)
+import(curl)
 import(dplyr)
-import(ggplot2)
-import(shiny)
+import(jsonlite)

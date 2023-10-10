@@ -9,6 +9,8 @@ getapidata(endpoint, entity, params = list())
 \arguments{
 \item{endpoint}{The API endpoint URL}
 
+\item{entity}{A required API variable from kolada}
+
 \item{params}{A list of query parameters}
 }
 \value{
@@ -17,10 +19,4 @@ getapidata(endpoint, entity, params = list())
 }
 \description{
 Gets single data from the API
-}
-\examples{
-api_data <- getapidata("http://api.kolada.se/v2", entity = "municipality", params = list())
-api_data <- getapidata("http://api.kolada.se/v2", "kpi", list())
-
-
 }

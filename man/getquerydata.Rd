@@ -10,6 +10,10 @@ getquerydata(endpoint, entity, municipality, year)
 \item{endpoint}{The API endpoint URL}
 
 \item{entity}{A list of query parameters}
+
+\item{municipality}{A variable for the municipalities in sweden}
+
+\item{year}{A period of years ranging from 2010 to 2022}
 }
 \value{
 \if{html}{\out{<div class="sourceCode">}}\preformatted{    Parsed API response

@@ -3,7 +3,11 @@
 #'
 #' @param endpoint The API endpoint URL
 #' @param entity   A list of query parameters
+#' @param municipality A variable for the municipalities in sweden
+#' @param year  A period of years ranging from 2010 to 2022
 #' @import dplyr
+#' @import jsonlite
+#' @import curl
 #' 
 #' @return         Parsed API response
 #'
